@@ -8,6 +8,8 @@
 
 :root {
 
+    --amarelo: #ffc50f;
+
     font-family: 'Montserrat', sans-serif;
 
     font-size: 16px;
@@ -71,5 +73,11 @@ li {
     color: white;
 
     text-decoration: none;
+
+}
+
+.links a:hover {
+
+    color: var(--amarelo)
 
 }
