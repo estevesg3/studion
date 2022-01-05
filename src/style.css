@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
 
 * {
 
@@ -30,6 +30,8 @@ left: 0;
 
 width: 100%;
 
+height: 7.8125rem;
+
 display: grid;
 
 grid-template-columns: 1fr 9fr;
@@ -44,6 +46,8 @@ body {
 
     margin: 0;
 
+    padding-top: 7.8125rem;
+
 }
 
 ul {
@@ -56,9 +60,13 @@ ul {
 
 }
 
-li {
+.links li {
 
-    margin-right: 0.625rem;
+    margin-right: 3rem;
+
+    font-size: 0.875rem;
+
+    text-transform: uppercase;
 
 }
 
@@ -74,10 +82,40 @@ li {
 
     text-decoration: none;
 
+    font-weight: 300;
+
 }
 
 .links a:hover {
 
     color: var(--amarelo)
+
+}
+
+.logo1 {
+
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    text-align: right;
+
+    font-size: 2.375rem;
+
+    line-height: 1ch;
+
+}
+
+.logo2 {
+
+    font-weight: 300;
+
+    font-size: 00.875rem;
+
+}
+
+.yellow {
+
+    color: var(--amarelo);
 
 }
