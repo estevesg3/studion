@@ -8,17 +8,21 @@
 
 :root {
 
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 16px;
+    
     --amarelo: #ffc50f;
 
-    font-family: 'Montserrat', sans-serif;
-
-    font-size: 16px;
-
+    --padding-padrão: 1rem;
 }
 
 .Barra-de-navegação {
 
 position: fixed;
+
+z-index: 1;
 
 background-color: black;
 
@@ -47,6 +51,8 @@ body {
     margin: 0;
 
     padding-top: 7.8125rem;
+
+    width: 100%;
 
 }
 
@@ -117,5 +123,112 @@ ul {
 .yellow {
 
     color: var(--amarelo);
+
+}
+
+#slider {
+
+    background-color: black;
+
+    color: white;
+
+
+}
+
+.margem0 {
+
+    margin: 0;
+
+}
+
+.slide {
+
+    height: calc(100vh - 7.75rem);
+
+    position: relative;
+
+}
+
+.background {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+}
+
+.cópia-slide {
+
+    position: absolute;
+
+    top: 6.25rem;
+ 
+    left: 50vw;
+
+}
+
+.cópia-slide h6 {
+
+    font-size: 0.9375rem;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.1875rem;
+
+}
+
+.cópia-slide h2 {
+
+    font-size: 6.25rem;
+
+    text-transform: uppercase;
+
+    line-height: 6.25rem;
+
+    margin-bottom: 35px;
+
+}
+
+.cópia-slide h2 span {
+
+    display: block;
+
+}
+
+.botão {
+
+    padding: 1rem 2.5rem;
+
+    color: var(--amarelo);
+
+    border: 0.125rem solid white;
+
+    background: unset;
+
+    border-radius: 10rem;
+
+    font-size: 0.9375rem;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: 1s all ease;
+
+}
+
+.botão:hover, .botão:active, .botão:focus {
+
+    border-color: var(--amarelo);
+    background-color: var(--amarelo);
+    color: white;
 
 }
