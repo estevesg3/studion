@@ -25,7 +25,7 @@
 
     max-width: 1140px;
 
-    margin: 0;
+    margin: 0 auto;
 
 
 }
@@ -367,17 +367,84 @@ overflow-x: hidden;
 }
 
 .Cotação {
-
+    
     background-image: url(./images/parallax.jpg);
-
-    min-height: 80vh;
 
     background-attachment: fixed;
 
     background-repeat: no-repeat;
-
+    
     background-size: cover;
-
+    
     background-position: center;
-
+    
 }
+    
+    .Conteúdo-cotação {
+        
+        display: grid;
+        
+        align-items: center;
+        
+        justify-items: end;
+        
+        min-height: 80vh;
+        
+    }
+    
+    
+
+.Cópia-cotação {
+
+    background-color: white;
+
+    padding: 5.625rem 4.375rem;
+
+    }
+
+    .Cópia-cotação h6 {
+
+        font-weight: 400;
+
+        font-size: 0.9375rem;
+
+        letter-spacing: 0.1875rem;
+
+        line-height: 1.4375rem;
+
+        max-width: 53ch;
+
+        text-transform: uppercase;
+
+        margin: 0;
+    }
+
+    .Cópia-cotação h2 {
+
+        font-size: 5rem;
+
+        text-transform: uppercase;
+
+        letter-spacing: -0.1875rem;
+
+        line-height: 5rem;
+
+        margin: 1.875rem 0;
+
+    }
+
+    .Cópia-cotação h2 span {
+
+        display: block;
+
+    }
+
+    .botão-cotação {
+
+        color: var(--cinza);
+
+        border-color: var(--cinza);
+
+        background: unset;
+
+    }
