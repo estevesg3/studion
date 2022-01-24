@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
 * {
 
@@ -446,5 +455,49 @@ overflow-x: hidden;
         border-color: var(--cinza);
 
         background: unset;
+
+    }
+
+    .Rodapé {
+
+        background-color: black;
+
+        color: white;
+
+        padding: 0 1rem;
+
+    }
+
+    .Conteúdo-rodapé {
+
+        display: grid;
+
+        grid-template-columns: repeat 3, auto);
+
+        align-items: center;
+
+    }
+
+    .Rodapé .logo1 {
+
+        justify-self: start;
+
+    }
+
+    .Formulário {
+
+        justify-self: center;;
+
+    }
+
+    .Mídias {
+
+        justify-self: end;
+
+    }
+
+    .logo2 {
+
+        display: block;
 
     }
