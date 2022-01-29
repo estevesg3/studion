@@ -472,9 +472,11 @@ overflow-x: hidden;
 
         display: grid;
 
-        grid-template-columns: repeat 3, auto);
+        grid-template-columns: repeat 3 auto);
 
         align-items: center;
+
+        padding: 5.25rem 0 3.75rem 0;
 
     }
 
@@ -482,11 +484,21 @@ overflow-x: hidden;
 
         justify-self: start;
 
+        margin: 0;
+
     }
 
     .Formulário {
 
-        justify-self: center;;
+        display: grid;
+
+        align-items: center;
+
+        grid-template-columns: 11ch auto;
+
+        justify-content: center;
+
+        gap: 1.25rem;
 
     }
 
@@ -496,8 +508,114 @@ overflow-x: hidden;
 
     }
 
+    .Mídias a, .Mídias a:visited, .Mídias:active  {
+
+        color: white;
+
+        margin-left: 0.2rem;
+
+    }
+
+    .Mídias a .fa-twitter, .Mídias a:visited .fa-twitter, .Mídias:active .fa-twitter  {
+
+        color: black;
+
+    }
+
     .logo2 {
 
         display: block;
+
+    }
+
+    .Formulário fieldset {
+
+        border: unset;
+
+        margin: 0;
+
+        padding: 0;
+
+        width: 100%;
+
+        position: relative;
+    
+    }
+
+    .Formulário input {
+
+        width: 100%;
+
+        background-color: var(--amarelo);
+
+        border: unset;
+
+        padding: 0 1rem;
+
+        height: 2.875rem;
+
+        font-size: 0.875rem;
+
+        font-weight: 700;
+
+        text-transform: uppercase;
+    
+    }
+
+    .Formulário input::placeholder {
+
+        color: black;
+
+    }
+
+    .Formulário input:focus {
+
+        outline: unset;
+
+    }
+
+    .Formulário button {
+
+        border: unset;
+
+        height: 100%;
+
+        position: absolute;
+
+        right: 0;
+
+        top: 0;
+
+        cursor: pointer;
+
+        transition: 0.6s all ease;
+
+    }
+
+    .Formulário button:hover {
+
+        color: white;
+
+        background-color: var(--cinza)
+
+    }
+
+    hr {
+
+        border-color: #fff4;
+
+        margin: 0;
+
+    }
+
+    .Rodapé p {
+
+        text-align: center;
+
+        font-size: 0.875rem;
+
+        font-weight: 300;
+
+        margin: 2.5rem 0;
 
     }
