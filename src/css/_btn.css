@@ -1,0 +1,48 @@
+.botão {
+  padding: 1rem 2.5rem;
+
+  color: var(--amarelo);
+
+  border: 0.125rem solid white;
+
+  background: unset;
+
+  border-radius: 10rem;
+
+  font-size: 0.9375rem;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: 1s all ease;
+}
+
+.botão:hover,
+.botão:active,
+.botão:focus,
+.botão-institucional {
+  border-color: var(--amarelo);
+
+  background-color: var(--amarelo);
+
+  color: white;
+
+  box-shadow: 0 1rem 1rem #0006;
+}
+
+.botão-institucional:hover {
+  color: var(--cinza);
+
+  background: unset;
+}
+
+.botão-cotação {
+  color: var(--cinza);
+
+  border-color: var(--cinza);
+
+  background: unset;
+}
