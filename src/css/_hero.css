@@ -1,0 +1,51 @@
+.hero {
+  height: 34.625rem;
+
+  position: relative;
+}
+
+.background-hero {
+  position: absolute;
+
+  object-fit: contain;
+
+  object-position: center;
+
+  z-index: -1;
+}
+
+.Cópia-hero {
+  width: 50vw;
+
+  position: absolute;
+
+  bottom: 0;
+
+  right: 0;
+
+  padding: 7rem 1.875rem;
+}
+
+.Cópia-hero h2 {
+  margin: 0;
+
+  margin-bottom: 3rem;
+
+  font-size: 7.5rem;
+
+  color: var(--amarelo);
+
+  letter-spacing: -0.3125rem;
+
+  line-height: 7.5rem;
+}
+
+.Cópia-hero p {
+  color: var(--branco);
+
+  font-size: 0.9375rem;
+
+  line-height: 1.875rem;
+
+  margin: 0;
+}

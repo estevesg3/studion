@@ -1,0 +1,193 @@
+#slider {
+  background-color: black;
+
+  color: white;
+}
+
+.slide {
+  height: 90vh;
+
+  position: relative;
+}
+
+.background {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center;
+}
+
+.cópia-slide {
+  position: absolute;
+
+  top: 6.25rem;
+
+  left: 50vw;
+}
+
+.cópia-slide h6 {
+  font-size: 0.9375rem;
+
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.1875rem;
+}
+
+.cópia-slide h2 {
+  font-size: 6.25rem;
+
+  text-transform: uppercase;
+
+  line-height: 6.25rem;
+}
+
+.cópia-slide h2 span {
+  display: block;
+}
+
+.margem0 {
+  margin: 0;
+}
+
+#números {
+  background-color: var(--amarelo);
+
+  color: white;
+
+  text-transform: uppercase;
+}
+
+.box-números {
+  padding: 4.375rem 1rem;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  place-items: center;
+}
+
+.box-números h3 {
+  font-size: 2.1875rem;
+}
+
+.box-números h3 small {
+  font-size: 1.25rem;
+
+  display: block;
+}
+
+.institucional {
+  display: grid;
+
+  grid-template-columns: auto auto;
+
+  align-items: center;
+
+  padding: 4.375rem;
+
+  gap: 3.125rem;
+}
+
+.imagem-institucional {
+  max-width: 550px;
+}
+
+.cópia-institucional {
+  padding: 0 1.875rem;
+}
+
+.cópia-institucional h6 {
+  font-size: 00.875rem;
+
+  font-weight: 300;
+
+  letter-spacing: 0.1rem;
+
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+.cópia-institucional h4 {
+  font-size: 1.5625rem;
+
+  margin-top: 1rem;
+}
+
+.institucional p {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 1.0625rem;
+
+  line-height: 1.6875rem;
+
+  margin: 0;
+
+  margin-bottom: 2.5rem;
+}
+
+.Cotação {
+  background-image: url(../images/parallax.jpg);
+
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: center;
+}
+
+.Conteúdo-cotação {
+  display: grid;
+
+  align-items: center;
+
+  justify-items: end;
+
+  min-height: 80vh;
+}
+
+.Cópia-cotação {
+  background-color: white;
+
+  padding: 5.625rem 4.375rem;
+}
+
+.Cópia-cotação h6 {
+  font-weight: 400;
+
+  font-size: 0.9375rem;
+
+  letter-spacing: 0.1875rem;
+
+  line-height: 1.4375rem;
+
+  max-width: 53ch;
+
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+.Cópia-cotação h2 {
+  font-size: 5rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: -0.1875rem;
+
+  line-height: 5rem;
+
+  margin: 1.875rem 0;
+}
+
+.Cópia-cotação h2 span {
+  display: block;
+}

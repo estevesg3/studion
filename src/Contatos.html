@@ -22,7 +22,20 @@
 
         <div class="Conteúdo Conteúdo-barra-de-navegação" >
 
-        <h1 class="logo1">Studi<span class="yellow" >on</span><span class="logo2"> Eventos</span></h1>
+        <h1 class="logo1">
+
+            <a href="index.html">
+            
+            Studi<span class="yellow" >on
+
+
+        </span>
+            
+            <span class="logo2"> Eventos</span> 
+        
+        </a>
+        
+        </h1>
         
         <ul class="links" >
 
@@ -38,7 +51,7 @@
             
             <li> <a href="Depoimentos.html">Depoimentos</a> </li>
             
-            <li> <a href="Contatos.html">Contatos</a> </li>
+            <li> <a class="Active" href="Contatos.html">Contatos</a> </li>
 
         </ul>
 
@@ -48,22 +61,21 @@
 
     <header>
 
-        <div id="slider" >
+        <div class="hero" >
 
-            <div class="slide">
+            <img src="./images/Contact.jpg" alt="" class="background-hero" />
 
-                <img class="background" src="./images/banner.jpg" alt="Studion banner">
+            <div Conteúdo Conteúdo-hero >
 
-                <div class="cópia-slide">
+                <div class="Cópia-hero" >
 
-                <h6 class="margem0" ><span class="yellow" >Próximo evento</span>- Dia 25 de setembro às 19h.</h6>
+                    <h2>.contato</h2>
 
-                <h2><span class="yellow" > Creative</span> Minds</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dolor asperiores quas repellendus, eveniet error quae impedit quia iusto ratione distinctio? Ducimus sit doloremque, odio nihil sed est eligendi consequuntur.</p>
 
-                <button class="botão botão-slide" > Saiba mais </button> </div>
+                </div>
 
             </div>
-
 
         </div>
 
@@ -71,58 +83,77 @@
 
     <main >
 
-        <section id="números">
+        <section class="Contato" >
 
-            <ul class="Conteúdo box-números" >
+            <section class="Contato-info" >
 
-                <li> <h3>+ de 500 <small>eventos realizados</small> </h3> </li>
-                <li> <h3>+ de 1.000.000 <small>de ingressos vendidos</small> </h3></li>
-                <li> <h3>+ de 300 <small>empresas atendidas</small> </h3></li>
+                <div class="Conteúdo-contato-info" >
 
-            </ul>
+                <h3>Liga pra gente</h3>
 
-        </section>
+                <span>
 
-        <section class=" Conteúdo institucional" >
+                    <i class="fas fa-phone fa-flip-horizontal"></i>
 
-            <img class="imagem-institucional" src="./images/institutional.jpg" alt="Studion institutional">
-            
-            <div class="cópia-institucional" >
+                    +55 24 2245 - 5012
 
-                <h6>Fazemos seu evento acontecer</h6>
+                </span>
 
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                <span>
 
-                <p>
+                    <i class="fab fa-whatsapp"></i>
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quibusdam a vero quae, reprehenderit perferendis commodi cum aliquam est consequuntur minus sit porro maiores id sed. Impedit rem fuga dolorum.
+                    +55 24 99247 - 5869
 
-                </p>
+                </span>
 
-                <button class="botão botão-institucional" >Saiba Mais</button>
+                <h3>Venha conhecer a nossa casa</h3>
+
+                <span>
+
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    Rua João Batista Muralha, SN, Lote 09 Petrópolis / RJ
+
+                </span>
 
             </div>
 
+            </section>
+
+            <section class="Contato-formulário" >
+
+                <form class="Conteúdo-contato-formulário"  action="">
+
+                    <h3>Deixe sua mensagem</h3>
+
+                    <label for="Nome">Seu nome</label>
+
+                    <input id="Nome" type="text" />
+
+                    <label for="Email">Seu e-mail</label>
+
+                    <input id="Email" type="email" />
+
+                    <label for="Mensagem">Sua mensagem</label>
+
+                    <input id="Mensagem" type="text" />
+
+                    <button class="botão botão-contato" type="submit">Enviar</button>
+
+                </form>
+
+            </section>
+
         </section>
 
-        <section class="Cotação" >
+            <section class="Mapa" >
+                    
+                    <iframe width="100%" src="https://maps.google.com/maps?q=Rua%20Jo%C3%A3o%20Batista%20muralha&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
 
-            <div class="Conteúdo Conteúdo-cotação" >
+                </iframe>
 
-                <div class="Cópia-cotação" >
-
-
-                    <h6> Você informa a temática e nós planejamos um evento com tecnologia e </h6>
-    
-                    <h2><span class="yellow" > Muito+ </span> Diversão</h2>
-    
-                    <button class="botão botão-cotação" > Fazer Cotação</button>
-
-                </div>
-                
-            </div>
-
-        </section>
+            </section>
 
     </main>
 
