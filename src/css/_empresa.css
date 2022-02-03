@@ -1,0 +1,49 @@
+.Cópia-hero {
+  width: 62ch;
+}
+
+.Empresa-info {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  margin: 4.1rem;
+}
+
+.Empresa-info h3 {
+  font-size: 1, 5625rem;
+
+  font-family: "Montserrat";
+
+  font-weight: 700;
+
+  width: 28ch;
+
+  line-height: 1.5rem;
+}
+
+.Empresa-info p {
+  font-family: "Roboto";
+
+  font-size: 1.0625rem;
+
+  font-weight: 400;
+
+  color: #333333;
+
+  width: 42ch;
+
+  line-height: 1.7rem;
+}
+
+.Empresa-img {
+  position: relative;
+
+  left: 42.8125rem;
+}
+
+.Conteúdo-empresa {
+  position: relative;
+
+  right: 34.375rem;
+}

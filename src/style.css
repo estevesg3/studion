@@ -28,6 +28,8 @@
 
 @import "./css/_hero.css";
 
+@import "./css/_empresa.css";
+
 .logo1 {
   font-weight: 900;
 
