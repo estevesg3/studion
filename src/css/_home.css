@@ -5,7 +5,7 @@
 }
 
 .slide {
-  height: calc(110vh - 7.75rem);
+  height: 90vh;
 
   position: relative;
 }
@@ -133,7 +133,7 @@
 }
 
 .Cotação {
-  background-image: url(./images/parallax.jpg);
+  background-image: url(../images/parallax.jpg);
 
   background-attachment: fixed;
 

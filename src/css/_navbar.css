@@ -1,5 +1,5 @@
 .Barra-de-navegação {
-  position: fixed;
+  position: absolute;
 
   z-index: 1;
 
@@ -9,7 +9,7 @@
 
   width: 100%;
 
-  background-color: black;
+  background-color: unset;
 
   color: white;
 }

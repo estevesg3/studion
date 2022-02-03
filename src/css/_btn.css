@@ -23,7 +23,8 @@
 .botão:hover,
 .botão:active,
 .botão:focus,
-.botão-institucional {
+.botão-institucional,
+.botão-contato {
   border-color: var(--amarelo);
 
   background-color: var(--amarelo);
@@ -33,10 +34,15 @@
   box-shadow: 0 1rem 1rem #0006;
 }
 
-.botão-institucional:hover {
+.botão-institucional:hover,
+.botão-contato:hover {
   color: var(--cinza);
 
   background: unset;
+}
+
+.botão-contato:hover {
+  color: white;
 }
 
 .botão-cotação {
