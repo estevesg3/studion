@@ -47,3 +47,51 @@
 
   right: 34.375rem;
 }
+
+.Logos h3 {
+  font-size: 1.5625rem;
+
+  color: #333333;
+
+  font-weight: 700;
+
+  font-family: "Montserrat";
+
+  margin: 0;
+
+  padding: 0;
+
+  padding-top: 4.25rem;
+
+  padding-left: 27rem;
+}
+
+.Logos {
+  width: 138.5625rem;
+
+  height: 36rem;
+
+  background-color: var(--amarelo);
+
+  position: relative;
+
+  bottom: 4.375rem;
+}
+
+.Logos img {
+  margin: 0;
+
+  padding: 0;
+
+  padding-top: 5rem;
+
+  padding-left: 7.0625rem;
+}
+
+.Vídeo video {
+  margin: 0;
+
+  padding: 0;
+
+  padding-left: 10.625rem;
+}
