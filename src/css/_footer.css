@@ -1,40 +1,46 @@
 .Rodapé {
   background-color: black;
-
+  align-items: center;
   color: white;
 
   padding: 0 1rem;
 }
 .Conteúdo-rodapé {
-  display: grid;
-
-  grid-template-columns: repeat 3 auto);
+  display: inline-flex;
+  width: auto;
+  justify-content: center;
 
   align-items: center;
-
-    padding: 5.25rem 0 3.75rem 0;
 }
 
 .Rodapé .logo1 {
-  justify-self: start;
+  position: relative;
 
-  margin: 0;
+  left: 100px;
 }
 
 .Formulário {
   display: grid;
-  
+
+  margin: 100px;
+
   align-items: center;
-  
+
   grid-template-columns: 11ch auto;
-  
+
   justify-content: center;
-  
+
   gap: 1.25rem;
+
+  position: relative;
+
+  left: 150px;
 }
 
 .Mídias {
-  justify-self: end;
+  position: relative;
+
+  left: 300px;
 }
 
 .Mídias a,
@@ -52,77 +58,77 @@
 }
 
 .Formulário fieldset {
-    border: unset;
-  
-    margin: 0;
-  
-    padding: 0;
-  
-    width: 100%;
-  
-    position: relative;
+  border: unset;
+
+  margin: 0;
+
+  padding: 0;
+
+  width: 100%;
+
+  position: relative;
 }
 
 .Formulário input {
-    width: 100%;
-  
-    background-color: var(--amarelo);
-  
-    border: unset;
-  
-    padding: 0 1rem;
-  
-    height: 2.875rem;
-  
-    font-size: 0.875rem;
-  
-    font-weight: 700;
-  
-    text-transform: uppercase;
+  width: 100%;
+
+  background-color: var(--amarelo);
+
+  border: unset;
+
+  padding: 0 1rem;
+
+  height: 2.875rem;
+
+  font-size: 0.875rem;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
 }
 
 .Formulário input::placeholder {
-    color: black;
+  color: black;
 }
 
 .Formulário input:focus {
-    outline: unset;
+  outline: unset;
 }
 
 .Formulário button {
-    border: unset;
-  
-    height: 100%;
-  
-    position: absolute;
-  
-    right: 0;
-  
-    top: 0;
-  
-    cursor: pointer;
-  
-    transition: 0.6s all ease;
+  border: unset;
+
+  height: 100%;
+
+  position: absolute;
+
+  right: 0;
+
+  top: 0;
+
+  cursor: pointer;
+
+  transition: 0.6s all ease;
 }
 
 .Formulário button:hover {
-    color: white;
-  
-    background-color: var(--cinza);
+  color: white;
+
+  background-color: var(--cinza);
 }
 
 hr {
-    border-color: #fff4;
-  
-    margin: 0;
-  }
+  border-color: #fff4;
 
-  .Rodapé p {
-    text-align: center;
-  
-    font-size: 0.875rem;
-  
-    font-weight: 300;
-  
-    margin: 2.5rem 0;
-  }
+  margin: 0;
+}
+
+.Rodapé p {
+  text-align: center;
+
+  font-size: 0.875rem;
+
+  font-weight: 300;
+
+  margin: 2.5rem 0;
+}

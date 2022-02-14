@@ -30,6 +30,8 @@
 
 @import "./css/_empresa.css";
 
+@import "./css/_eventos.css";
+
 .logo1 {
   font-weight: 900;
 

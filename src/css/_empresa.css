@@ -1,3 +1,7 @@
+.hero {
+  overflow: -moz-hidden-unscrollable;
+}
+
 .Cópia-hero {
   width: 62ch;
 }

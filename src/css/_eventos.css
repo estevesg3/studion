@@ -1,0 +1,167 @@
+.Eventos {
+  display: grid;
+}
+
+.Eventos button {
+  margin-right: 2.375rem;
+
+  justify-self: right;
+
+  position: relative;
+
+  bottom: 6.25rem;
+}
+
+.Eventos-info {
+  margin: 0;
+
+  margin-left: 3.4375rem;
+
+  margin-top: 5.875rem;
+}
+
+.Conteúdo-eventos-info {
+  display: flex;
+}
+
+.Conteúdo-eventos-info div {
+  margin-left: 3.375rem;
+}
+
+.Conteúdo-eventos-info h3 {
+  font-size: 1.25rem;
+
+  color: var(--amarelo);
+
+  letter-spacing: 0.25rem;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+
+  font-family: "Montserrat";
+}
+
+.Conteúdo-eventos-info span {
+  font-size: 0.9375rem;
+
+  letter-spacing: 0.1875rem;
+
+  font-weight: 700;
+
+  font-family: "Montserrat";
+}
+
+.Conteúdo-eventos-info i {
+  color: var(--amarelo);
+
+  font-size: 1.2rem;
+}
+
+.Conteúdo-eventos-info p {
+  font-size: 1.0625rem;
+
+  font-weight: 400;
+
+  font-family: "Roboto";
+
+  color: var(--cinza);
+
+  width: 56ch;
+}
+
+hr {
+  border-color: black;
+
+  margin: 0;
+
+  margin-right: 1rem;
+
+  margin-left: 1rem;
+}
+
+main .Eventos3 {
+  background-color: #f5f5f5;
+
+  width: 69.9375rem;
+
+  height: 35.1875rem;
+
+  width: 100%;
+}
+
+.Conteúdo-eventos-info3 button {
+  float: right;
+
+  position: relative;
+
+  left: 32.6875rem;
+
+  top: -4.375rem;
+}
+
+.Texto {
+  background-color: #f5f5f5;
+
+  padding-left: 3.375rem;
+
+  padding-bottom: 2.5rem;
+}
+
+.Texto2 {
+  display: grid;
+
+  background-color: #f5f5f5;
+
+  padding-left: 3.375rem;
+
+  padding-bottom: 1rem;
+}
+
+.Texto p {
+  margin: 0;
+
+  line-height: 1.6875rem;
+
+  font-size: 1.0625rem;
+
+  font-weight: 400;
+
+  font-family: "Roboto";
+
+  color: var(--cinza);
+}
+
+.Texto2 span {
+  font-size: 0.9375rem;
+
+  letter-spacing: 0.1875rem;
+
+  color: black;
+
+  font-weight: 400;
+
+  font-family: "Montserrat";
+}
+
+.Texto2 i {
+  color: var(--amarelo);
+
+  font-size: 1.3rem;
+}
+
+.Texto2 button {
+  position: relative;
+
+  bottom: 3.3125rem;
+
+  border: unset;
+
+  justify-self: right;
+
+  margin-right: 2.375rem;
+}
+
+.Eventos4 hr {
+  margin-bottom: 30px;
+}

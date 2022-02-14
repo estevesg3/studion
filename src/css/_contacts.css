@@ -111,3 +111,7 @@
 .Mapa iframe {
   height: 36.5rem;
 }
+
+main {
+  overflow: -moz-hidden-unscrollable;
+}
